@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping-card</title>
+    <link rel="stylesheet" href="./public/style.css">
+   
+</head>
+
+<body>
+
+    <main>
+<section id="shopping-card">
+
+  <h1>Shopping-Card-UI</h1>
+  <section id="product1">
+<section class="image-thubnail" >
+    <img src="" alt="shoe-iamge" id="imagethumbnail"/>
+</section>
+
+<section class="products-info">
+  <h4 id="title"></h4>
+  <p id="size">size:4 UK</p>
+  <p id="price"></p>
+</section>
+
+<section class="quantity">
+ <button class="decrement-btn" onclick="decreQtn()">-</button> 
+ <span id="quantity">0</span>
+ <button class="increment-btn" onclick="increQtn()">+</button>
+</section>
+
+</section>
+
+  <section id="product2">
+    <section class="image-thubnail" >
+      <img src="" alt="shoe-iamge" id="imagethumbnail2"/>
+  </section>
+  
+  <section class="products-info">
+    <h5 id="title2"></h5>
+    <p id="size2">size:4.5 UK</p>
+    <p id="price2">$0</p>
+  </section>
+  
+  <section class="quantity">
+   <button class="decrement-btn2" onclick="decreQtn2()">-</button> 
+   <span id="quantity2">0</span>
+   <button class="increment-btn2" onclick="increQtn2()">+</button>
+  </section>
+  </section>
+
+  <section id="product3">
+    <section class="image-thubnail" >
+      <img src="" alt="shoe-iamge" id="imagethumbnail3"/>
+  </section>
+  
+  <section class="products-info">
+    <h5 id="title3"></h5>
+    <p id="size3">size:5 UK</p>
+    <p id="price3">$0</p>
+  </section>
+  
+  <section class="quantity">
+   <button class="decrement-btn3" onclick="decreQtn3()">-</button> 
+   <span id="quantity3">0</span>
+   <button class="increment-btn3" onclick="increQtn3()">+</button>
+  </section>
+  </section>
+
+  <section id="checkout">
+
+    <section id="products">
+      <h4 id="total-products">Products</h4>
+    </section>
+    <section id="products-price">
+      <h3 id="price-products">$220</h3>
+    </section>
+  </section>
+
+  <section id="discount">
+    <section id="price-discount">
+      <h4 id="discount-d">Discounts</h4>
+    </section>
+
+    <section id="discount-price">
+      <h3 id="discount-amt">$30</h3>
+    </section>
+  </section>
+
+ <section id="delivery-charge">
+  <section id="charge">
+    <h4 id="charge-heading">Charge</h4>
+  </section>
+  <section id="charge-amt">
+    <h3 id="charge-amount">$9</h3>
+  </section>
+ </section> 
+
+ <section id="total-display">
+  <section id="total">
+    <h3 id="total-heading">Total</h3>
+  </section>
+
+  <section id="total-amount-display">
+    <h3 id="total-amount">$7000</h3>
+
+  </section>
+ </section>
+ <section id="check-btn">
+  <button id="checkout-btn">Checkout</button>
+
+ </section>
+</section>
+    </main>
+ 
+    <script src="./public/script.js"></script>
+</body>
+
+</html>
